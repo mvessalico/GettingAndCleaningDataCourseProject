@@ -4,24 +4,22 @@ This repo is used to filter and summarize the Human Activity Recognition Using S
 
 ## Usage
 
-From Command Line: run_analysis.R rootDatasetDir outputDir
+From Command Line: `run_analysis.R rootDatasetDir outputDir`
 
-Params:
-
+**Params**:
 rootDatasetDir: the path to the root directory of the dataset
 outputPath: the path to write the summarized data to
 
-Note: The script assumes the following directory structure of the UCI HAR Dataset
-      The default structure when downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+**Note**: The script assumes the following directory structure of the UCI HAR Dataset. The default structure when downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-   -root
-       -train
-           -subject_train.txt
-           -X_train.txt
-           -y_train.txt
-       -test
-           -subject_test.txt
-           -X_test.txt
-           -y_test.txt
-       -activity_labels.txt
-       -features.txt
+*root
+  *train
+     *subject_train.txt
+        *X_train.txt
+        *y_train.txt
+   *test
+      *subject_test.txt
+         *X_test.txt
+          *y_test.txt
+       *activity_labels.txt
+       *features.txt

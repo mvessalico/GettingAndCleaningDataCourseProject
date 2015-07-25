@@ -10,7 +10,7 @@ The dataset contains an 81-feature vector
 
 All variables are formatted according to the following specifications:
 
-timeOrFrequencyDomain_MotionComponenetAndMeasurement_Function_Direction
+*timeOrFrequencyDomain_MotionComponenetAndMeasurement_Function_Direction*
 
 Note: Direction does not apply to every variable
 
@@ -24,10 +24,9 @@ Note: Direction does not apply to every variable
 
 **Direction**: Either X, Y, or Z. Indicates the direction of the signal from the 3-axial accelerometer and gyroscope.
 
-*Units*: Accelerometer values are measured in standard gravity units 'g'. Gyroscope values are measured in radians/second. All features are normalized and bounded within [-1,1].
+**Units**: Accelerometer values are measured in standard gravity units 'g'. Gyroscope values are measured in radians/second. All features are normalized and bounded within [-1,1].
 
-Examples:
-
+**Examples**:
 timeDomain_BodyAcceleration_Mean_Y
 freqDomain_BodyGyro_StdDev_X
 freqDomain_BodyAccelerationJerk_MeanFreq_Z
