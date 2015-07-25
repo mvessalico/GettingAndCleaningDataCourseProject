@@ -27,9 +27,10 @@ Note: Direction does not apply to every variable
 **Units**: Accelerometer values are measured in standard gravity units 'g'. Gyroscope values are measured in radians/second. All features are normalized and bounded within [-1,1].
 
 **Examples**:
-timeDomain_BodyAcceleration_Mean_Y
-freqDomain_BodyGyro_StdDev_X
-freqDomain_BodyAccelerationJerk_MeanFreq_Z
+
+timeDomain_BodyAcceleration_Mean_Y  
+freqDomain_BodyGyro_StdDev_X  
+freqDomain_BodyAccelerationJerk_MeanFreq_Z  
 
 The dataset includes two additional columns, activity and subjectID, which represent the activity the subject was performing while the measurements were taken and the id of the subject performing the experiment, respectively. The activites are either WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, or LAYING and the subject ids range from 1 to 30.
 
